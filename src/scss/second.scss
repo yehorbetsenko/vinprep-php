@@ -1,0 +1,45 @@
+.first {
+    &__devices-2 {
+        margin-top: 150px;
+    }
+}
+
+.header {
+    &__login {
+        text-decoration: none;
+        text-align: center;
+        padding-top: 12px;
+    }
+}
+
+.btn {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.first {
+    &__btn-2 {
+        display: none;
+    }
+    &__btn {
+        text-decoration: none;
+        text-align: center;
+        padding-top: 18px;    
+    }
+}
+
+.btn-530 {
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .first {
+        &__btn-div-2 {
+            margin-bottom: 150px;
+        }
+        &__devices-2 {
+            display: none;
+        }
+    }   
+}
